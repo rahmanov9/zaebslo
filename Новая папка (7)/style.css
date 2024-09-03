@@ -1,0 +1,23 @@
+.cont {
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   gap: 20px;
+}
+
+li {
+   border: 2px solid black;
+   padding: 10px;
+    width: 300px;
+    text-align: center;
+    transition: 0.5s;
+}
+ul {
+   display: flex;
+   flex-direction: column;
+   gap: 20px;
+}
+.green {
+   background-color: rgb(104, 255, 104);
+}
